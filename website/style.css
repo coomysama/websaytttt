@@ -1,0 +1,84 @@
+#banner img{
+  height:214px;
+  width:auto;
+  background:linear-gradient(rgba(0,0,0,0.1),#1eb300);
+  background-image:url("tree/images.jpeg");
+  background-size:cover;
+  background-position: center;
+  position: fixed;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  width: 330px;
+  height: 100%;
+  position: relative;
+}
+.wrapper #sidebar{
+  position: fixed;
+  width: 330px;
+  padding-top: 214px;
+  height: 100%;
+  background: 02317e;
+  overflow: hidden;
+}
+.search{
+  width: 330px;
+  height: 50px;
+  background: #02317e;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.search > input{
+  flex: 1;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 10px;
+  padding-left: 10px;
+}
+#sidebar .list-items{
+  position: relative;
+  background: #02317e;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+#sidebar .list-items li{
+  text-align: center;
+  background: #4984c2;
+  line-height: 50px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid #333;
+  transition: all 0.3s ease;
+}
+#sidebar .list-items li:hover{
+  box-shadow: 0 0 10px 3px #222;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  background: #9fbaee;
+}
+#sidebar .list-items li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#sidebar li a{
+  color: #fff;
+}
+#sidebar .list-items li:hover{
+  box-shadow: 0 0 10px 3px #222;
+}
+#news {
+ padding-left: 330px;
+ padding-top: 214px;
+}
